@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import './pages/**/*.scss';
+@import './components/**/*.scss';
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #4a4a4a;
+}
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+}
