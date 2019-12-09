@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100" src="https://raw.githubusercontent.com/msintaha/latte/master/client/assets/images/latte.png">
+  <img width="100" src="https://raw.githubusercontent.com/msintaha/latte/master/src/assets/images/latte.png">
 </p>
 
 # Latte
