@@ -2,8 +2,8 @@ const merge = require('webpack-merge');
 const webpack = require('webpack');
 const common = require('./webpack.common.js');
 
-const API_BASE_URL = '<YOUR_API_SERVER>';
-const BASE_URL = '<YOUR_FRONTEND_CLIENT>';
+const API_BASE_URL = '<YOUR_API_SERVER>'; // e.g. https://backend.com/api
+const BASE_URL = '<YOUR_FRONTEND_CLIENT>'; // e.g. https://frontend.com
 
 module.exports = merge(common, {
   mode: 'production',
@@ -30,7 +30,7 @@ module.exports = merge(common, {
     allowedHosts: [
       '*'
     ],
-    public: '*',
+    public: '*', // your app url
     port: 3000,
     host: '0.0.0.0',
     disableHostCheck: true,
