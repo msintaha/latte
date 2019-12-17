@@ -6,8 +6,10 @@
 A React boilerplate pluggable to any backend
 
 ### Setup
-- To install packages run, `yarn install`
-- To run - `yarn start`
+- Node version ~10
+- Install yarn using `npm i -g yarn`
+- Install packages using `yarn install`
+- Run the app using `yarn start`
 
 ### Project Structure
 
