@@ -6,7 +6,7 @@
 A React boilerplate pluggable to any backend
 
 ### Setup
-- Node version ~10
+- Node version ~11
 - Install yarn using `npm i -g yarn`
 - Install packages using `yarn install`
 - Run the app using `yarn start`
