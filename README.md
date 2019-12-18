@@ -11,6 +11,11 @@ A React boilerplate pluggable to any backend
 - Install packages using `yarn install`
 - Run the app using `yarn start`
 
+### Deploying
+- In webpack.prod.js, replace the `<YOUR_FRONTEND_CLIENT>` with the actual domain path
+- Run `yarn build`
+- Run `yarn production` to serve the app in your domain
+
 ### Project Structure
 
 ```
