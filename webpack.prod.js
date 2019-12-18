@@ -30,8 +30,8 @@ module.exports = merge(common, {
     allowedHosts: [
       '*'
     ],
-    public: '*', // your app url
-    port: 3000,
+    public: '<YOUR_FRONTEND_CLIENT>', // your app url
+    port: 8080,
     host: '0.0.0.0',
     disableHostCheck: true,
     contentBase: '.',
