@@ -25,8 +25,6 @@ A React boilerplate pluggable to any backend
 │   └── index.html
 ├── src
 │   ├── App.jsx
-│   ├── LICENSE.md
-│   ├── README.md
 │   ├── app.scss
 │   ├── assets
 │   │   └── images
@@ -38,11 +36,15 @@ A React boilerplate pluggable to any backend
 │   ├── index.jsx
 │   ├── pages
 │   │   ├── Home
+│   │   │   ├── Home.spec.js
 │   │   │   ├── _index.scss
 │   │   │   └── index.jsx
 │   │   └── _index.scss
 │   ├── services
 │   │   └── Service.js
+│   ├── test
+│   │   ├── dom.js
+│   │   └── helper.js
 │   └── utils
 │       └── http.js
 ├── webpack.common.js
