@@ -11,15 +11,30 @@ A React boilerplate pluggable to any backend
 - Install packages using `yarn install`
 - Run the app using `yarn start`
 
-### Deploying
+### Manual Deploying
 - In webpack.prod.js, replace the `<YOUR_FRONTEND_CLIENT>` with the actual domain path
 - Run `yarn build`
 - Run `yarn production` to serve the app in your domain
+
+## Docker
+### Run dev-app locally
+- `docker-compose up`
+### Run tests locally
+- `docker ps` to get container id
+- `docker exec -it <container_id> yarn test`
+### Run build folder locally
+- `docker build .`
+- `docker run -it -p 8080:80 <container_id>`
+- Visit localhost:8080
+
 
 ### Project Structure
 
 ```
 .
+├── Dockerfile
+├── LICENSE.md
+├── README.md
 ├── package.json
 ├── public
 │   └── index.html
