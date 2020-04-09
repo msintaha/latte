@@ -33,8 +33,10 @@ A React boilerplate pluggable to any backend
 ```
 .
 ├── Dockerfile
+├── Dockerfile.dev
 ├── LICENSE.md
 ├── README.md
+├── docker-compose.yml
 ├── package.json
 ├── public
 │   └── index.html
