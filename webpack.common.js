@@ -15,11 +15,11 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, './src/dist'),
+    path: path.resolve(__dirname, './dist'),
     publicPath: '/'
   },
   plugins: [
-    new CleanWebpackPlugin(['./src/dist']),
+    new CleanWebpackPlugin(['./dist']),
     new webpack.DefinePlugin({
       'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH)
     }),
