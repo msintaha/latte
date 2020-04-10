@@ -11,7 +11,7 @@ A React boilerplate pluggable to any backend
 - Install packages using `yarn install`
 - Run the app using `yarn start`
 
-### Manual Deploying
+### Manual Deployment
 - In webpack.prod.js, replace the `<YOUR_FRONTEND_CLIENT>` with the actual domain path
 - Run `yarn build`
 - Run `yarn production` to serve the app in your domain
@@ -27,6 +27,10 @@ A React boilerplate pluggable to any backend
 - `docker run -it -p 8080:80 <container_id>`
 - Visit localhost:8080
 
+## CI/CD
+- Create a travis-ci account, add your repository and activate it in settings
+- Add AWS environment variables like access_key and secret_key (for deploying in aws)
+- For deploying to aws, uncomment the `deploy: ` portion in the .travis.yml file and add in your bucket_name and app_name
 
 ### Project Structure
 
