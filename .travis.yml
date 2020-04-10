@@ -4,5 +4,6 @@ services:
 
 before_install:
   -  docker build -t msintaha/latte -f Dockerfile.dev .
+
 script:
   - docker run msintaha/latte yarn test
