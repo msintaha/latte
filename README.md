@@ -3,7 +3,7 @@
 </p>
 
 # Latte
-A React boilerplate pluggable to any backend
+A React frontend boilerplate pluggable to any backend
 
 ### Setup
 - Node version ~11
